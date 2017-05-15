@@ -1,0 +1,42 @@
+{
+  "session": {
+    "sessionId": "SessionId.1f8125d1-2186-49a3-8a46-3db97e56e3ed",
+    "application": {
+      "applicationId": "amzn1.ask.skill.8e40a274-7a50-4132-887f-7e0db3930c36"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AEPSPHEEKAXC6MYIYZGFPJETMYFODZ2MKMOXHYPDKDZZUOI62TT3VE7JDAI4ERX7TIXYEO3QK4J4WMGGV4RSBBMUKO4V3FEBBWYA2B7OGTXTNOMXOWMEP6YSLXV2TYEU6RTYVYNOZXEC2JSLAEB7UVZ5NITX4BBLBKS22K2ZBFEYOTHYHTYTUSKEMJKPDWGLJWMKBBARNFQVBRQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.16f11d1a-9302-43a9-98f3-d65d9af9db60",
+    "locale": "en-US",
+    "timestamp": "2017-05-14T18:00:45Z",
+    "intent": {
+      "name": "QuerySeats",
+      "slots": {
+        "movie.seats_available": {
+          "name": "movie.seats_available"
+        },
+        "movie.name": {
+          "name": "movie.name",
+          "value": "guardians of the galaxy"
+        },
+        "movie.date": {
+          "name": "movie.date",
+          "value": "2017-05-20"
+        },
+        "movie.showtime": {
+          "name": "movie.showtime"
+        },
+        "movie.theater": {
+          "name": "movie.theater"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
